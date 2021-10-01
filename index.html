@@ -1,0 +1,38 @@
+<!-- -----------ABOUT----------- -->
+<!-- You need to kill 12 enemies.
+Game is based on Time.
+Key Controls - Arrow(up,down,left,right) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="canvasDiv">
+        <div id="count">
+            <div id="timer">
+                Timer - <span class="showTime">00:00</span>
+            </div>
+            <div id="kills">
+                Kills- <span class="showKills">0</span>
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="popup">
+        <div id="gameover">
+            <b>Game Over!!</b>
+        </div>
+        You Killed <span id="killed">0</span> Enemies in <span id="timeUsed">00:00</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
